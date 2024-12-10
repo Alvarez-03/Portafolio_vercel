@@ -1,0 +1,30 @@
+#herramientas-content{
+    text-align: center;
+    margin-top: 21vh;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 12, 12);
+    padding-top: 1rem;
+    border-radius: 10px;
+}
+#titulo-herramientas{
+    color: rgb(25, 190, 36);
+}
+#titulo-basico{
+    margin-bottom: 0px;
+    padding-top: 4%;
+}
+#herramientas{
+    display: flex; 
+}
+
+#herramientas p {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    color: rgb(25, 190, 36);
+}
+
+#herramientas p i{
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: rgb(255, 255, 255);
+}
