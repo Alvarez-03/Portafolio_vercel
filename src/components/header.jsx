@@ -5,12 +5,14 @@ function Header(){
     return(
         <header className="" id="header">
             <nav className="navbar container">
-                <h1>Portafolio</h1>
+                <h2>Portafolio</h2>
                 <div id="links-content">
-                    <a href="#content-sobremi">Sobre mi</a>
+                    <a href="#content-text">Sobre mi</a>
                     <a href="#herramientas-content">Skills</a>
                     <a href="#section-projects">Proyectos</a>
-                    <a href="">Contactame</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alvareztigreros2006@gmail.com" target="_blank">
+                        Contactame
+                    </a>
                 </div>
             </nav>
         </header>
