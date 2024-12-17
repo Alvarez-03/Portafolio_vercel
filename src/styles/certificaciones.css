@@ -1,0 +1,82 @@
+#container-cards {
+    margin-top: 10vh;
+}
+
+#container-cards h2 {
+    text-align: center;
+    color: rgb(25, 190, 36);
+    margin: 5vh;
+}
+
+#content_card {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+#content_card img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: all 1s;
+}
+
+#content_card img:hover {
+    z-index: 100;
+    transform: scale(1.3);
+}
+
+/* Diseno responsive */
+@media screen and (max-width: 1200px) {
+    #container-cards {
+        margin-top: 5vh;
+    }
+
+    #content_card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container-cards h2 {
+        font-size: 1.5rem;
+        margin: 3vh;
+    }
+
+    #content_card {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    #content_card img {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #container-cards {
+        margin-top: 3vh;
+    }
+
+    #content_card {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    #content_card h2 {
+        font-size: 1.2rem;
+    }
+
+    #content_card img {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+}

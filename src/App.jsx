@@ -1,3 +1,4 @@
+import Certificaciones from "./components/certificaciones"
 import Footer from "./components/footer"
 import Header from "./components/header"
 import Projects from "./components/projects"
@@ -15,6 +16,7 @@ function App() {
         <Sobremi/>
         <Skills/>
         <Projects/>
+        <Certificaciones/>
       </main>
       <Footer/>
     </>
