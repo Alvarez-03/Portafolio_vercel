@@ -1,4 +1,5 @@
 #herramientas-content{
+    margin-top: 20vh;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(12, 12, 12);
@@ -27,3 +28,6 @@
     margin-bottom: 8px;
     color: rgb(255, 255, 255);
 }
+    #herramientas p i:hover{
+        color: rgb(1, 123, 9);
+    }

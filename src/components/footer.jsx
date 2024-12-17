@@ -1,12 +1,11 @@
 import React from "react";
-
+import '../styles/index.css'
 
 function Footer (){
     return(
         <footer className="d-md-flex " id="footer-page">
             <div id="text">
-                <p>Derechos de Autor: Cristian David Alvarez Tigreros. </p>
-                <p>Portafolio: 2024</p>
+                <p>© 2024 Cristian David Alvarez Tigreros.</p>
             </div>
                 
             

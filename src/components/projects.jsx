@@ -57,12 +57,17 @@ function Projects (){
                             <p className="card__title">App web restaurante</p>
                         </header>
                         <p className="card__description">
-                            Una aplicacion web diseñada para organizar y priorizar tareas, 
-                            ayudándote a gestionar tu tiempo de manera más eficiente y productiva
-                            <h4>HTML, CSS, JAVASCRIPT </h4>
+                        El sistema consta de dos páginas principales:
+                        <br />
+                        Dashboard: Permite gestionar y configurar la carta del restaurante, 
+                        visualizar los pedidos y administrar el carrito de compras en tiempo real. <br /> <br />
+                        Página principal del usuario: Aquí los clientes pueden consultar la carta 
+                        del restaurante, agregar productos al carrito de compras y realizar pedidos. 
+                        Toda la información de pedidos se reflejará y podrá gestionarse desde el dashboard. 
+                            <h4>HTML, CSS, JAVASCRIPT, POSTGRESQL </h4>
                         </p>
                         <footer className="card_footer">
-                            <a href="https://github.com/Alvarez-03/Tareas">
+                            <a href="https://github.com/Alvarez-03/WebApp_Restaurante">
                                 <button>Repositorio</button>
                             </a>
                         </footer>
