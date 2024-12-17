@@ -23,6 +23,7 @@
     justify-content: center;
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+
   }
   
   .card img {
@@ -68,10 +69,15 @@
     font-size: 14px;
     color: #777;
     line-height: 1.4;
+    max-height: 80%;
+    overflow-y: auto;
+    word-wrap: break-word;
+    padding-right: 8px;
   }
 
   .card_footer{
-    margin-top: 10px;
+    margin-top: auto;
+   
   }
 
   .card_footer button{
