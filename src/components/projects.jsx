@@ -74,8 +74,12 @@ function Projects (){
                     </div>
                 </div>
 
-
             </section>
+            <footer className="container my-5">
+                <a href="https://proyectosalvarez.vercel.app/">
+                    <button id="btn-mp">Más Proyectos</button>
+                </a>
+            </footer>
         </>
     )
 }

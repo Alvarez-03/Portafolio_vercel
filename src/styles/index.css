@@ -9,6 +9,15 @@ body{
     background-attachment: fixed;
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 60, 5);
+    border-radius: 10px;
+}
+
 #footer-page {
     margin-top: 5vh;
     padding-bottom: 28px;
