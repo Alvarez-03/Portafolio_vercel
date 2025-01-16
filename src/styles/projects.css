@@ -82,6 +82,7 @@
 
   .card_footer button{
     border-radius: 5px;
+    margin-left: 5px;
     padding: 5px;
     background-color: rgb(6, 6, 157);
     color: white;

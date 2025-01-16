@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../../public/img/avatar.jpeg"
+import avatar from "../../public/img/fotoHV.jpg"
 import '../styles/sobremi.css'
 import cv from "../../public/CV_CristianAlvarez.pdf"
 

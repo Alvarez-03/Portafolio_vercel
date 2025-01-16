@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className="" id="header">
             <nav className="navbar container">
-                <h2>Portafolio</h2>
+                <h2><strong>Cristian Alvarez</strong></h2>
                 <div id="links-content">
                     <a href="#content-text">Sobre mi</a>
                     <a href="#herramientas-content">Skills</a>

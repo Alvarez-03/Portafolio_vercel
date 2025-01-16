@@ -1,13 +1,13 @@
 import React from "react";
 import TeatroApolo from "../../public/img/proyectoTeatroApolo.png"
-import ListaTarea from "../../public/img/ListaTarea.png"
-import Restaurante from "../../public/img/Restaurante.jpg"
+import Parqueadero from "../../public/img/parqueadero.png"
+import Restaurante from "../../public/img/Restaurante.png"
 import '../styles/projects.css'
 
 function Projects (){
     return(
         <>
-            <h2 id="tittle-projects">Proyectos</h2>
+            <h2 id="tittle-projects"><strong>Proyectos</strong></h2>
             <section className=" container" id="section-projects">
 
                 <div className="card">
@@ -25,26 +25,32 @@ function Projects (){
                         </p>
                         <footer className="card_footer">
                             <a href="https://github.com/Alvarez-03/Teatro-Apolo-React">
-                                <button>Repositorio</button>
+                                <button><i class="fa-brands fa-github"></i> Repositorio</button>
                             </a>
                         </footer>
                     </div>
                 </div>
 
                 <div className="card">
-                    <img src={ListaTarea} alt="" />
+                    <img src={Parqueadero} alt="" />
                     <div className="card__content">
                         <header className="card_header">
-                            <p className="card__title">Gestor de tareas</p>
+                            <p className="card__title">App Web Parqueadero</p>
                         </header>
                         <p className="card__description">
-                            Una aplicacion web diseñada para organizar y priorizar tareas, 
-                            ayudándote a gestionar tu tiempo de manera más eficiente y productiva
+                            Una aplicación web diseñada para la gestión eficiente de vehículos en 
+                            un parqueadero. Permite organizar el estacionamiento por zonas, configurando
+                            la cantidad de bahías en cada una. Además, ofrece la opción de personalizar 
+                            tarifas y calcular automáticamente el costo según el tiempo que cada vehículo 
+                            permanezca estacionado.
                             <h4>HTML, CSS, JAVASCRIPT </h4>
                         </p>
                         <footer className="card_footer">
-                            <a href="https://github.com/Alvarez-03/Tareas">
-                                <button>Repositorio</button>
+                            <a href="https://github.com/Alvarez-03/Tareas" >
+                                <button><i class="fa-brands fa-github"></i> Repositorio</button>
+                            </a>
+                            <a href="https://proyectosalvarez.vercel.app/Parking/index.html" target="_blank">
+                                <button><i class="fa-solid fa-arrow-up-right-from-square"></i> Ir ahora</button>
                             </a>
                         </footer>
                     </div>
@@ -54,7 +60,7 @@ function Projects (){
                     <img src={Restaurante} alt="" />
                     <div className="card__content">
                         <header className="card_header">
-                            <p className="card__title">App web restaurante</p>
+                            <p className="card__title">App Web Restaurante</p>
                         </header>
                         <p className="card__description">
                         El sistema consta de dos páginas principales:
@@ -68,7 +74,7 @@ function Projects (){
                         </p>
                         <footer className="card_footer">
                             <a href="https://github.com/Alvarez-03/WebApp_Restaurante">
-                                <button>Repositorio</button>
+                                <button><i class="fa-brands fa-github"></i> Repositorio</button>
                             </a>
                         </footer>
                     </div>
@@ -76,7 +82,7 @@ function Projects (){
 
             </section>
             <footer className="container my-5">
-                <a href="https://proyectosalvarez.vercel.app/">
+                <a href="https://proyectosalvarez.vercel.app/" target="_blank">
                     <button id="btn-mp">Más Proyectos</button>
                 </a>
             </footer>
