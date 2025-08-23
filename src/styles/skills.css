@@ -1,33 +1,56 @@
-#herramientas-content{
-    margin-top: 20vh;
+.skills-section {
     text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(12, 12, 12);
-    padding-top: 1rem;
-    border-radius: 10px;
-}
-#titulo-herramientas{
-    color: rgb(25, 190, 36);
-}
-#titulo-basico{
-    margin-bottom: 0px;
-    padding-top: 4%;
-}
-#herramientas{
-    display: flex; 
-}
-
-#herramientas p {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    color: rgb(25, 190, 36);
-}
-
-#herramientas p i{
-    font-size: 32px;
-    margin-bottom: 8px;
-    color: rgb(255, 255, 255);
-}
-    #herramientas p i:hover{
-        color: rgb(1, 123, 9);
+    padding: 40px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-marquee {
+    overflow: hidden;
+    width: 60%;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .marquee-track {
+    display: inline-flex;
+    gap: 50px;
+    animation: scroll-x 22s linear infinite;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+  }
+  
+  .skill-item img {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.6));
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item img:hover {
+    transform: scale(1.2);
+  }
+  
+  .skill-item span {
+    margin-top: 8px;
+    color: #00ff66; /* verde llamativo */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  @keyframes scroll-x {
+    from {
+      transform: translateX(0);
     }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

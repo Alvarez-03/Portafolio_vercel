@@ -1,39 +1,45 @@
 import React from "react";
 import '../styles/skills.css'
+import HTML from '../../assets/Icons/html5.svg'
+import CSS from '../../assets/Icons/css_old.svg'
+import JavaScript from '../../assets/Icons/javascript.svg'
+import ReactIcon from '../../assets/Icons/react_light.svg'
+import PostgreSQLIcon from '../../assets/Icons/postgresql.svg'
+import BootstrapIcon from '../../assets/Icons/bootstrap.svg'
+import TailwindIcon from '../../assets/Icons/tailwindcss.svg'
+import TypeScriptIcon from '../../assets/Icons/typescript.svg'
+import FirebaseIcon from '../../assets/Icons/firebase.svg'
 
 function Skills(){
+    const icons = [
+        { src: HTML, label: "HTML" },
+        { src: CSS, label: "CSS" },
+        { src: JavaScript, label: "JAVASCRIPT" },
+        { src: ReactIcon, label: "REACT" },
+        { src: PostgreSQLIcon, label: "POSTGRESQL" },
+        { src: BootstrapIcon, label: "BOOTSTRAP" },
+        { src: TailwindIcon, label: "TAILWIND" },
+        { src: TypeScriptIcon, label: "TYPESCRIPT" },
+        { src: FirebaseIcon, label: "FIREBASE" },
+    ];
+
     return(
-        <section class="container " id="herramientas-content" >
+        <section className="skills-section" id="herramientas-content">
             <h2 id="titulo-herramientas"><strong>Skills</strong></h2>
             <h4 id="titulo-basico">Conocimiento Basico</h4>
-            <div class="container p-5 row" id="herramientas">
-                
-                <p class="col" >
-                    <i class="fa-brands fa-html5"></i> 
-                    HTML
-                </p>
-                <p class="col" >
-                    <i class="fa-brands fa-css3-alt"></i>
-                    CSS
-                </p>
-                <p class="col">
-                    <i class="fa-brands fa-js"></i>
-                    JAVASCRIPT
-                </p>
-                <p class="col">
-                    <i class="fa-brands fa-react"></i>
-                    REACT
-                </p>
-                <p class="col">
-                    <i class="fa fa-database" aria-hidden="true"></i>
-                    POSTGRESQL
-                </p>
-                <p class="col">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    BOOTSTRAP
-                </p>
+
+            <div className="skills-marquee">
+                <div className="marquee-track">
+                    {icons.concat(icons).map((icon, index) => (
+                        <div key={index} className="skill-item">
+                            <img src={icon.src} alt={icon.label} />
+                            <span>{icon.label}</span>
+                        </div>
+                    ))}
+                </div>
             </div>
         </section>
     )
 }
-export default Skills
+
+export default Skills;

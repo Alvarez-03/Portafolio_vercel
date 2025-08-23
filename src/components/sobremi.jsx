@@ -20,9 +20,12 @@ function Sobremi(){
                     el area de frontend. <br />
                     Estoy buscando una oportunidad para aplicar mis conocimientos y seguir aprendiendo y 
                     contribuyendo al desarrollo de soluciones innovadoras. </p>
+                    <p id="experiencia">
+                        +6 <span>Meses de experiencia</span>
+                    </p>
                 </section>
                 <footer id="redes-sociales" >
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-center ">
+                    <div class="d-grid gap-2 d-md-flex align-items-center justify-content-center ">
                         <a class="btn btn-social" id="btn-github" type="button" href="https://github.com/Alvarez-03">
                             <i class="fa-brands fa-github"></i>
                         </a>
@@ -32,10 +35,8 @@ function Sobremi(){
                         <a class="btn btn-social" id="btn-correo" type="button" href="https://mail.google.com/mail/?view=cm&fs=1&to=alvareztigreros2006@gmail.com" target="_blank"> 
                             <i class="fa-solid fa-envelope"></i>
                         </a>
-                        <a href={cv}  download="CV_CristianAlvarez.pdf">
-                            <button className="btn btn-social" id="btn-cv">
-                                <i class="fa-solid fa-download"></i> Hoja de vida
-                            </button>
+                        <a href={cv} class="btn btn-social"  download="CV_CristianAlvarez.pdf">
+                            <i class="fa-solid fa-download"></i> Hoja de vida
                         </a>
                     </div>
                 </footer>

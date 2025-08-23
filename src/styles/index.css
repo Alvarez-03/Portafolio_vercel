@@ -5,7 +5,7 @@ body{
     font-weight: 1000;
     font-style: normal;
 
-    background: linear-gradient(180deg, #000000, #02081e, #000000);
+    background: linear-gradient(180deg, #000000, #000412, #000000);
     background-attachment: fixed;
 }
 
@@ -14,7 +14,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: rgb(0, 60, 5);
+    background-color: #000412;
     border-radius: 10px;
 }
 
