@@ -1,0 +1,45 @@
+.content__project{
+    background-color:rgba(128, 128, 128, 0.089);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.content__card{
+    margin: 10px 0 10px;
+    line-height: 1.4;
+    max-height: 140px;
+    min-height: 70%;
+    overflow-y: auto;
+    word-wrap: break-word;
+    padding-right: 8px;
+}
+
+.content__card::-webkit-scrollbar {
+    width: 5px;
+}
+.content__card::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.089) ;
+}
+.content__project img{
+    width: 30px;
+    height:30px;
+    border-radius: 10px;
+}
+.content__project video{
+    max-width: 80%;
+    min-width: 40%;
+    height:auto;
+    border-radius: 10px;
+}
+
+#content__1{
+    display: grid;
+    grid-template-columns: 600px, auto;
+
+    justify-content: start;
+    align-items: center;
+}
