@@ -9,7 +9,7 @@ import TailwindIcon from '../../assets/Icons/tailwindcss.svg'
 import TypeScriptIcon from '../../assets/Icons/typescript.svg'
 import FirebaseIcon from '../../assets/Icons/firebase.svg'
 import VideoTerapia from "../../public/videos/AppTerapias.mp4"
-import "../styles/ProjectsProfesional.css"
+import "../styles/projectsProfesional.css"
 
 function ProjectsProfesional() {
 
